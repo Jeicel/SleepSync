@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="192dp"
+    android:viewportWidth="256"
+    android:viewportHeight="192">
+
+    <!-- Background card -->
+    <path
+        android:fillColor="#1E2139"
+        android:pathData="M 16 16 L 240 16 Q 248 16 248 24 L 248 176 Q 248 184 240 184 L 16 184 Q 8 184 8 176 L 8 24 Q 8 16 16 16 Z" />
+
+    <!-- Title (Reminders) -->
+    <path
+        android:fillColor="#8C7BFF"
+        android:pathData="M 24 22 L 90 22 L 90 30 L 24 30 Z" />
+
+    <!-- Reminder 1 background -->
+    <path
+        android:fillColor="#171A2C"
+        android:strokeColor="#8C7BFF"
+        android:strokeWidth="2"
+        android:pathData="M 24 45 L 232 45 L 232 65 Q 232 68 229 68 L 27 68 Q 24 68 24 65 Z" />
+
+    <!-- Reminder 1 label -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 30 52 L 65 52 L 65 58 L 30 58 Z" />
+
+    <!-- Reminder 1 value -->
+    <path
+        android:fillColor="#8C7BFF"
+        android:pathData="M 190 52 L 230 52 L 230 58 L 190 58 Z" />
+
+    <!-- Reminder 2 background -->
+    <path
+        android:fillColor="#171A2C"
+        android:strokeColor="#8C7BFF"
+        android:strokeWidth="2"
+        android:pathData="M 24 75 L 232 75 L 232 95 Q 232 98 229 98 L 27 98 Q 24 98 24 95 Z" />
+
+    <!-- Reminder 2 label -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 30 82 L 65 82 L 65 88 L 30 88 Z" />
+
+    <!-- Reminder 2 value -->
+    <path
+        android:fillColor="#8C7BFF"
+        android:pathData="M 190 82 L 230 82 L 230 88 L 190 88 Z" />
+
+    <!-- Reminder 3 background -->
+    <path
+        android:fillColor="#171A2C"
+        android:strokeColor="#8C7BFF"
+        android:strokeWidth="2"
+        android:pathData="M 24 105 L 232 105 L 232 125 Q 232 128 229 128 L 27 128 Q 24 128 24 125 Z" />
+
+    <!-- Reminder 3 label -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 30 112 L 75 112 L 75 118 L 30 118 Z" />
+
+    <!-- Reminder 3 value -->
+    <path
+        android:fillColor="#8C7BFF"
+        android:pathData="M 190 112 L 230 112 L 230 118 L 190 118 Z" />
+
+    <!-- Shadow -->
+    <path
+        android:fillColor="#00000015"
+        android:pathData="M 16 184 L 240 184 L 240 192 L 16 192 Z" />
+</vector>

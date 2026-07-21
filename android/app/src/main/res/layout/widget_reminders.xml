@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root_reminders"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/widget_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminders"
+        android:textColor="@color/widget_accent"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.05" />\n\n    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/widget_info_box"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/label_bedtime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bedtime"
+            android:textColor="@color/widget_muted"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/reminder_bedtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            android:textColor="@color/widget_accent_light"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/widget_info_box"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/label_wake"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wake-Up"
+            android:textColor="@color/widget_muted"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/reminder_wake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            android:textColor="@color/widget_accent_light"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/widget_info_box"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/label_eye"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eye Comfort"
+            android:textColor="@color/widget_muted"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/reminder_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            android:textColor="@color/widget_accent_light"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+
+</LinearLayout>

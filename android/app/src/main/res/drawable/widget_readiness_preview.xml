@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+
+    <!-- Background card -->
+    <path
+        android:fillColor="#1E2139"
+        android:pathData="M 16 24 L 240 24 Q 248 24 248 32 L 248 224 Q 248 232 240 232 L 16 232 Q 8 232 8 224 L 8 32 Q 8 24 16 24 Z" />
+
+    <!-- Title bar (Tonight's readiness) -->
+    <path
+        android:fillColor="#8C7BFF"
+        android:pathData="M 24 30 L 100 30 L 100 38 L 24 38 Z" />
+
+    <!-- Main value area (8h 0m) - large white bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 24 50 L 200 50 L 200 110 L 24 110 Z" />
+
+    <!-- Subtitle (Last sleep session duration) -->
+    <path
+        android:fillColor="#9CA3AF"
+        android:pathData="M 24 125 L 180 125 L 180 132 L 24 132 Z" />
+
+    <!-- Box 1: Target - background -->
+    <path
+        android:fillColor="#171A2C"
+        android:pathData="M 24 145 L 84 145 L 84 195 Q 84 200 79 200 L 29 200 Q 24 200 24 195 Z" />
+
+    <!-- Box 1 border -->
+    <path
+        android:strokeColor="#8C7BFF"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 24 145 L 84 145 L 84 195 Q 84 200 79 200 L 29 200 Q 24 200 24 195 Z" />
+
+    <!-- Box 1 label -->
+    <path
+        android:fillColor="#9CA3AF"
+        android:pathData="M 30 155 L 60 155 L 60 160 L 30 160 Z" />
+
+    <!-- Box 1 value -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 30 175 L 65 175 L 65 185 L 30 185 Z" />
+
+    <!-- Box 2: Last wake - background -->
+    <path
+        android:fillColor="#171A2C"
+        android:pathData="M 96 145 L 156 145 L 156 195 Q 156 200 151 200 L 101 200 Q 96 200 96 195 Z" />
+
+    <!-- Box 2 border -->
+    <path
+        android:strokeColor="#8C7BFF"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 96 145 L 156 145 L 156 195 Q 156 200 151 200 L 101 200 Q 96 200 96 195 Z" />
+
+    <!-- Box 2 label -->
+    <path
+        android:fillColor="#9CA3AF"
+        android:pathData="M 102 155 L 140 155 L 140 160 L 102 160 Z" />
+
+    <!-- Box 2 value -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 102 175 L 145 175 L 145 185 L 102 185 Z" />
+
+    <!-- Box 3: Streak - background -->
+    <path
+        android:fillColor="#171A2C"
+        android:pathData="M 168 145 L 228 145 L 228 195 Q 228 200 223 200 L 173 200 Q 168 200 168 195 Z" />
+
+    <!-- Box 3 border -->
+    <path
+        android:strokeColor="#8C7BFF"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 168 145 L 228 145 L 228 195 Q 228 200 223 200 L 173 200 Q 168 200 168 195 Z" />
+
+    <!-- Box 3 label -->
+    <path
+        android:fillColor="#9CA3AF"
+        android:pathData="M 174 155 L 210 155 L 210 160 L 174 160 Z" />
+
+    <!-- Box 3 value -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 174 175 L 215 175 L 215 185 L 174 185 Z" />
+
+    <!-- Shadow -->
+    <path
+        android:fillColor="#00000015"
+        android:pathData="M 16 232 L 240 232 L 240 240 L 16 240 Z" />
+</vector>

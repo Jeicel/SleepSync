@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/widget_bg">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tonight's readiness"
+        android:textColor="@color/widget_accent_light"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.05" />
+
+    <TextView
+        android:id="@+id/readiness_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--"
+        android:textColor="@color/widget_text"
+        android:textSize="44sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/readiness_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last sleep session duration"
+        android:textColor="@color/widget_muted"
+        android:textSize="12sp"
+        android:layout_marginTop="6dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:spacing="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/widget_info_box"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/label_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target"
+                android:textColor="@color/widget_muted"
+                android:textSize="10sp"
+                android:letterSpacing="0.08" />
+            <TextView
+                android:id="@+id/readiness_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/widget_text"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/widget_info_box"
+            android:padding="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <TextView
+                android:id="@+id/label_lastwake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last wake"
+                android:textColor="@color/widget_muted"
+                android:textSize="10sp"
+                android:letterSpacing="0.08" />
+            <TextView
+                android:id="@+id/readiness_last_wake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/widget_text"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/widget_info_box"
+            android:padding="10dp"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/label_streak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Streak"
+                android:textColor="@color/widget_muted"
+                android:textSize="10sp"
+                android:letterSpacing="0.08" />
+            <TextView
+                android:id="@+id/readiness_streak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/widget_text"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
